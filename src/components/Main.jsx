@@ -62,7 +62,7 @@ export const Main = () => {
                 to={`/chat?name=${values[USERNAME]}&room=${values[ROOM]}`}
                 onClick={handleClick}>
                  <button type='submit' className={styles.button}>
-                    Sign In
+                    Sign In!
                  </button>
             </Link>
         </form>
